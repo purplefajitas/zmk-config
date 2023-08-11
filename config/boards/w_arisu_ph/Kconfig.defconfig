@@ -1,0 +1,9 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_WARISUPH
+
+config ZMK_KEYBOARD_NAME
+    default "w_arisu_ph"
+
+endif
