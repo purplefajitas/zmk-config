@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 
 
-if SHIELD_QUEFRENCY_LEFT
+if SHIELD_W_QUEFRENCY_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "w_quefrency"
