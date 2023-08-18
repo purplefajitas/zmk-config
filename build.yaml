@@ -17,4 +17,3 @@ include:
     shield: w_quefrency_left
   - board: nice_nano
     shield: w_quefrency_right
-  - board: nice_nano
