@@ -35,7 +35,7 @@
 // | KP_N2  | KP_N7  ||       | BT-0 | BT-1| BT-2 |     |     |       |     |     |     |     |     |     |     |     |      |
 // | KP_N3  | KP_N8  ||        |      |     |      |     |     |       |     |     |     |     |     |     |   PLAY   |      |
 // | KP_N4  | KP_N9  ||         |      |     |     |      |     |       |     |     |     |     |     |         |     |      |
-// | KP_N5  | KP_N10 ||         |      |      |           |     |       |             |      |    |       | NXT |     | PRV  |
+// | KP_N5  | KP_N0  ||         |      |      |           |     |       |             |      |    |       | NXT |     | PRV  |
 // -------------------------------------------       ------------------------------------------------------
 
         fn_layer {
@@ -44,7 +44,7 @@
     &kp KP_N2   &kp KP_N7  &trans     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &trans &trans        /**/ &trans &trans &trans &trans  &trans  &trans  &trans &trans &trans
     &kp KP_N3   &kp KP_N8  &trans     &trans       &trans       &trans       &trans &trans        /**/ &trans &trans &trans &trans  &trans  &trans  &kp C_PLAY &trans
     &kp KP_N4   &kp KP_N9  &trans     &trans       &trans       &trans       &trans &trans        /**/ &trans &trans &trans &trans  &trans  &trans  &kp C_VOL_UP &trans
-    &kp KP_N5   &kp KP_N10 &trans     &trans       &trans       &trans       &trans               /**/ &trans &trans &trans &trans  &kp C_PREV  &kp C_VOL_DN  &kp C_NEXT
+    &kp KP_N5   &kp KP_N0  &trans     &trans       &trans       &trans       &trans               /**/ &trans &trans &trans &trans  &kp C_PREV  &kp C_VOL_DN  &kp C_NEXT
             >;
         };
     };
